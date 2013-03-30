@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>App:</b>
+  <%= @app_key.app %>
+</p>
+
+<p>
+  <b>App url:</b>
+  <%= @app_key.app_url %>
+</p>
+
+<p>
+  <b>Entity name:</b>
+  <%= @app_key.entity_name %>
+</p>
+
+<p>
+  <b>App api token:</b>
+  <%= @app_key.app_api_token %>
+</p>
+
+
+<%= link_to 'Edit', edit_app_key_path(@app_key) %> |
+<%= link_to 'Back', app_keys_path %>

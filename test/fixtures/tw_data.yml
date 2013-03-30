@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  app_key_id: 1
+  followers: 1
+  retweets: 1
+  mentions: 1
+  fetched_at: 2013-03-30
+
+two:
+  app_key_id: 1
+  followers: 1
+  retweets: 1
+  mentions: 1
+  fetched_at: 2013-03-30

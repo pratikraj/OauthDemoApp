@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  app_key_id: 1
+  fans: 1
+  posts_by_admin: 1
+  posts_by_fans: 1
+  likes_on_posts: 1
+  shares_of_posts: 1
+  comments_on_posts: 1
+  fetched_at: 2013-03-30
+
+two:
+  app_key_id: 1
+  fans: 1
+  posts_by_admin: 1
+  posts_by_fans: 1
+  likes_on_posts: 1
+  shares_of_posts: 1
+  comments_on_posts: 1
+  fetched_at: 2013-03-30

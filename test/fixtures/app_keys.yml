@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  app: MyString
+  app_url: MyText
+  entity_name: MyString
+  app_api_token: MyText
+
+two:
+  app: MyString
+  app_url: MyText
+  entity_name: MyString
+  app_api_token: MyText

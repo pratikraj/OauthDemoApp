@@ -1,0 +1,33 @@
+<%= form_for(@app_key) do |f| %>
+  <% if @app_key.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@app_key.errors.count, "error") %> prohibited this app_key from being saved:</h2>
+
+      <ul>
+      <% @app_key.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :app %><br />
+    <%= f.text_field :app %>
+  </div>
+  <div class="field">
+    <%= f.label :app_url %><br />
+    <%= f.text_area :app_url %>
+  </div>
+  <div class="field">
+    <%= f.label :entity_name %><br />
+    <%= f.text_field :entity_name %>
+  </div>
+  <div class="field">
+    <%= f.label :app_api_token %><br />
+    <%= f.text_area :app_api_token %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
